@@ -40,7 +40,7 @@ namespace ModCircle
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             DrawLines(e);
-            Text = "ModCircle";
+            Text = "ModCircle V2";
         }
 
         private List<Point> InstantiatePoints(int ammount, float magnitude) {
