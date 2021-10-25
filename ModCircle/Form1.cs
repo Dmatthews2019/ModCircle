@@ -40,7 +40,7 @@ namespace ModCircle
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             DrawLines(e);
-            Text = CirclePoints.Count.ToString();
+            Text = "ModCircle";
         }
 
         private List<Point> InstantiatePoints(int ammount, float magnitude) {
